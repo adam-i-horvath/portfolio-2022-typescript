@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "technologies": "React",
+    "image_url": "https://camo.githubusercontent.com/518977ed5e52020624daf41cf644046368af610f19a7b1220dd1d58377d08288/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f72656163742d6f726967696e616c2d776f72646d61726b2e737667"
+  },
+  {
+    "id": 2,
+    "technologies": "TypeScript",
+    "image_url": "https://camo.githubusercontent.com/94890eb1b8c3ce19ea73189dade730fa967a8fe08899f25cab17b57a5d4339dc/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f747970657363726970742d6f726967696e616c2e737667"
+  },
+  {
+    "id": 3,
+    "technologies": "JavaScript",
+    "image_url": "https://camo.githubusercontent.com/7a2b6137fa6818b1c85f86347a6b4a75ee52681d4a190c506df972e3c5459980/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f6a6176617363726970742d6f726967696e616c2e737667"
+  },
+  {
+    "id": 4,
+    "technologies": "HTML5",
+    "image_url": "https://camo.githubusercontent.com/bfa71fe5e1eb3ca57a7e4ef9c6b2ca21414c4fdab27ac6861e211e7cfe8f7d9f/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f68746d6c352d6f726967696e616c2d776f72646d61726b2e737667"
+  },
+  {
+    "id": 5,
+    "technologies": "CSS3",
+    "image_url": "https://camo.githubusercontent.com/1f14c9c472b21cf8790a4fb6914be3a3181e957ecc2b397775f06a989d20cb37/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f637373332d6f726967696e616c2d776f72646d61726b2e737667"
+  },
+  {
+    "id": 6,
+    "technologies": "WordPress",
+    "image_url": "https://camo.githubusercontent.com/4629b90b2cfb38cc37a512b6b1fb6a8cb51d303cde9aebb07f91dc5e6c276033/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f776f726470726573732e706e67"
+  },
+  {
+    "id": 7,
+    "technologies": "GraphQL",
+    "image_url": "https://camo.githubusercontent.com/1485e92b04f4e5a9b05d6ca5d4f349e54e2a7e242e81b3c7df6660c86e31b02e/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f6772617068716c2e706e67"
+  },
+  {
+    "id": 8,
+    "technologies": "Firebase",
+    "image_url": "https://camo.githubusercontent.com/e6e7e4e720421db277c77244ec2cdbc925f09ee2555a718b061f7063ed8c6799/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f66697265626173652e706e67"
+  },
+  {
+    "id": 9,
+    "technologies": "Material UI",
+    "image_url": "https://mui.com/static/logo.png"
+  },
+  {
+    "id": 10,
+    "technologies": "styled-components",
+    "image_url": "https://www.styled-components.com/atom.png"
+  }
+]

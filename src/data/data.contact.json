@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Facebook",
+    "link": "https://www.facebook.com/adam.i.horvath/",
+    "image_url": "https://www.facebook.com/images/fb_icon_325x325.png"
+  },
+  {
+    "id": 2,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/horvathadamistvan/",
+    "image_url": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+  },
+  {
+    "id": 3,
+    "name": "GitHub",
+    "link": "https://github.com/adam-i-horvath",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png"
+  },
+  {
+    "id": 4,
+    "name": "Instagram",
+    "link": "https://www.instagram.com/adam.i.horvath/",
+    "image_url": "https://beautymarketingexperts.hu/wp-content/uploads/2017/08/instagram-logo-png-transparent-background.png"
+  }
+]
