@@ -9,7 +9,8 @@ const HomeStyle = styled.div`
     justify-content: center;
     text-align: center;
     font-size: 4vw;
-    margin: 20px;
+    overflow: scroll;
+    padding: 40px;
   }
   .name a {
     text-decoration: none;
@@ -28,6 +29,7 @@ const HomeStyle = styled.div`
     background-color: #000000;
     color: #ffffff;
   }
+
   .react_image {
     height: 150px;
   }

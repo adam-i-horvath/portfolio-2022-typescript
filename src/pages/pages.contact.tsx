@@ -30,6 +30,8 @@ const ContactStyle = styled.label`
   }
   .req {
     color: var(--red);
+    text-align: center;
+    padding-top: 10px;
   }
   .send {
     width: 200px;
@@ -43,7 +45,7 @@ const ContactStyle = styled.label`
   }
 
   .email {
-    width: 200px;
+    width: 400px;
     background-color: var(--green);
     margin: 10px;
     height: 40px;
@@ -52,6 +54,15 @@ const ContactStyle = styled.label`
 
   .email:hover {
     background-color: var(--green);
+  }
+  @media screen and (max-width: 768px) {
+    .contact__form {
+      width: 90vw;
+    }
+    .send {
+      width: 300px;
+      margin: 0 auto;
+    }
   }
 `;
 
@@ -91,26 +102,23 @@ const SocialStyle = styled.div`
   text-align: center;
 `;
 
+const service: string = process.env.REACT_APP_SERVICE as string;
+const template: string = process.env.REACT_APP_TEMPLATE as string;
+const user: string = process.env.REACT_APP_USER as string;
+
 export default function Contact() {
   function sendEmail(e: any) {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        'service_9emj8b8',
-        'template_d9tl8nj',
-        e.target,
-        'user_6GegzI8nfqicaZMWY6cVR'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          e.preventDefault();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(service, template, e.target, user).then(
+      (result) => {
+        console.log(result.text);
+        e.preventDefault();
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     e.target.reset();
     alert('Message successfully sent!');
   }
